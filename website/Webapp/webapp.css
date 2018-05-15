@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Kavivanar');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	height: 100vh;
+	background: url("images/crouton.jpg") no-repeat center center fixed;
+	background-size: cover;
+	color:white;
+}
+
+button, input, body {
+	font-family: 'Kavivanar', cursive;
+}
+
+input {
+	text-align: right
+}
+
+h1 {
+	text-align:center;
+}
+
+#wrapper {
+	width: 620px;
+	margin: 20px auto;
+}
+
+#leftColumn {
+	float: left;
+
+	width: 300px;
+}
+#leftColumn img {
+	width: 100%;
+}
+#rightColumn {
+	float: right;
+	background-color: blue;
+	width: 300px;
+	text-align: center;
+}
+
+#rightColumn input {
+	width: 100px;
+}
+
+p.normal {
+    font-weight: normal;
+}
+
+p.thick {
+    font-weight: bold;
+}
